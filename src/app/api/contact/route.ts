@@ -42,9 +42,9 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: process.env.SMTP_USER,
       to: process.env.CONTACT_EMAIL || process.env.NOTIFICATION_EMAIL || process.env.SMTP_USER,
-      subject: `New Credent Lead: ${name} from ${company || 'Unknown Company'}`,
+      subject: `New Cresm Lead: ${name} from ${company || 'Unknown Company'}`,
       html: `
-        <h2>New Lead from Credent Demo Form</h2>
+        <h2>New Lead from Cresm Demo Form</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Company:</strong> ${company || 'N/A'}</p>

@@ -49,7 +49,7 @@ export function Evidence() {
             <span className="font-extrabold">should have a source.</span>
           </h2>
           <p className="text-lg text-secondary leading-relaxed mb-12">
-            Credent is designed around evidence-backed credit review. Every extracted data point is explicitly mapped back to the underlying financial document, page, and exact field coordinate.
+            Cresm is designed around evidence-backed credit review. Every extracted data point is explicitly mapped back to the underlying financial document, page, and exact field coordinate.
           </p>
         </div>
 

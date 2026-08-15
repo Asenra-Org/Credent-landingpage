@@ -43,7 +43,7 @@ export function Workflow() {
     <section ref={containerRef} id="workflow" className="py-16 px-6 bg-white border-b border-border">
       <div className="max-w-7xl mx-auto">
         <div className="text-xs font-bold tracking-[0.2em] text-secondary uppercase mb-16 border-b border-border pb-4">
-          How Credent Works
+          How Cresm Works
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
