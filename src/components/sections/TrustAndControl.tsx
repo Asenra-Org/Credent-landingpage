@@ -61,7 +61,7 @@ export function TrustAndControl() {
             <span className="font-extrabold">the workflow.</span>
           </h2>
           <p className="text-lg text-white/60 leading-relaxed">
-            Credent's architecture ensures enterprise-grade security and compliance. From strict role-based access control to immutable audit logs, every step of the credit process is secure, traceable, and structurally sound.
+            ACAS's architecture ensures enterprise-grade security and compliance. From strict role-based access control to immutable audit logs, every step of the credit process is secure, traceable, and structurally sound.
           </p>
         </div>
 

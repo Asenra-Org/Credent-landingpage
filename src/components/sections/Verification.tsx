@@ -101,7 +101,7 @@ export function Verification() {
             <span className="font-extrabold">Cross-check.</span>
           </h2>
           <p className="text-lg text-secondary leading-relaxed max-w-md">
-            Surface inconsistencies for review. Credent automatically compares financial metrics across different documents to identify structural risks before manual human review even begins.
+            Surface inconsistencies for review. ACAS automatically compares financial metrics across different documents to identify structural risks before manual human review even begins.
           </p>
         </div>
 

@@ -12,13 +12,13 @@ export function Nav() {
         <Link href="/" className="flex items-center gap-2 group">
           <Image 
             src="/logo.jpg" 
-            alt="Credent Logo" 
+            alt="ACAS Logo" 
             width={32} 
             height={32} 
             className="w-8 h-8 object-contain"
             priority
           />
-          <span className="font-bold tracking-tight text-brand">CREDENT</span>
+          <span className="font-bold tracking-tight text-brand">ACAS</span>
         </Link>
 
         {/* Links */}

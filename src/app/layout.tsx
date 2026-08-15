@@ -13,10 +13,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Credent | Decision-Ready Credit Infrastructure",
-  description: "Credent brings document ingestion, financial analysis, verification, evidence and credit review into one structured workflow for modern lenders.",
+  title: "ACAS | Decision-Ready Credit Infrastructure",
+  description: "ACAS brings document ingestion, financial analysis, verification, evidence and credit review into one structured workflow for modern lenders.",
   openGraph: {
-    title: "Credent | Decision-Ready Credit Infrastructure",
+    title: "ACAS | Decision-Ready Credit Infrastructure",
     description: "From borrower documents to a decision-ready credit file.",
   }
 };
