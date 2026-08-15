@@ -53,8 +53,8 @@ export function ProductShowcase() {
           <div className="bg-brand text-white px-4 md:px-6 py-3 flex items-center justify-between text-xs">
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2 font-bold tracking-widest uppercase">
-                <Image src="/logo.jpg" alt="ACAS" width={16} height={16} className="w-4 h-4 object-contain grayscale invert brightness-200 mix-blend-screen" />
-                ACAS
+                <Image src="/logo.jpg" alt="Cresem" width={16} height={16} className="w-4 h-4 object-contain grayscale invert brightness-200 mix-blend-screen" />
+                Cresem
               </div>
               <div className="hidden md:flex gap-4 text-white/50 font-medium">
                 <span className="text-white hover:text-white transition-colors cursor-pointer">Credit Case</span>

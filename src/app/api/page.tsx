@@ -35,7 +35,7 @@ export default function ApiPage() {
               Developer-Friendly <span className="font-extrabold">REST API.</span>
             </h2>
             <p className="text-lg text-secondary leading-relaxed mb-6">
-              No complex SDKs or legacy protocols. Our API is built on modern web standards, returning predictable, strongly-typed JSON. Whether you're building a custom frontend or integrating with a legacy core banking system, ACAS adapts to your stack.
+              No complex SDKs or legacy protocols. Our API is built on modern web standards, returning predictable, strongly-typed JSON. Whether you're building a custom frontend or integrating with a legacy core banking system, Cresem adapts to your stack.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
@@ -96,7 +96,7 @@ export default function ApiPage() {
                     <div className="w-12 h-12 bg-brand text-white rounded-full flex items-center justify-center z-10 relative">
                       <Code2 className="w-6 h-6" />
                     </div>
-                    <span className="text-[10px] font-bold mt-2 uppercase tracking-wider text-secondary">ACAS Engine</span>
+                    <span className="text-[10px] font-bold mt-2 uppercase tracking-wider text-secondary">Cresem Engine</span>
                   </div>
                   
                   <div className="flex-1 border-t-2 border-dashed border-primary/40 relative">
@@ -127,7 +127,7 @@ export default function ApiPage() {
               Real-time <span className="font-extrabold">Webhook Support.</span>
             </h2>
             <p className="text-lg text-secondary leading-relaxed mb-6">
-              Financial document parsing is inherently asynchronous. Instead of forcing your systems to poll our API continuously, ACAS utilizes webhooks and Server-Sent Events (SSE) to notify your backend the exact millisecond a credit file is ready.
+              Financial document parsing is inherently asynchronous. Instead of forcing your systems to poll our API continuously, Cresem utilizes webhooks and Server-Sent Events (SSE) to notify your backend the exact millisecond a credit file is ready.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">

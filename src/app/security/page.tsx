@@ -22,7 +22,7 @@ export default function SecurityPage() {
             <span className="font-extrabold text-white">zero compromises.</span>
           </h1>
           <p className="text-lg text-white/70 leading-relaxed max-w-2xl mx-auto">
-            ACAS is built for institutional finance. We operate under strict data handling protocols designed to meet and exceed regulatory requirements for Banks and NBFCs.
+            Cresem is built for institutional finance. We operate under strict data handling protocols designed to meet and exceed regulatory requirements for Banks and NBFCs.
           </p>
         </div>
       </section>
@@ -55,7 +55,7 @@ export default function SecurityPage() {
               </div>
               <h3 className="text-2xl font-bold tracking-tight mb-4">Data Sandboxing & Ephemeral Processing</h3>
               <p className="text-secondary leading-relaxed mb-8">
-                Every financial document uploaded to ACAS is processed inside a securely isolated, ephemeral container environment. Once the structured data (CAM) is generated and returned to your systems, the raw document and its trace are immediately wiped from working memory. 
+                Every financial document uploaded to Cresem is processed inside a securely isolated, ephemeral container environment. Once the structured data (CAM) is generated and returned to your systems, the raw document and its trace are immediately wiped from working memory. 
               </p>
             </div>
             <div className="font-mono text-xs text-primary font-semibold uppercase tracking-wider">

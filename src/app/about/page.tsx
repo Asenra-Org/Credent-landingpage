@@ -44,10 +44,10 @@ export default function AboutPage() {
               This manual appraisal process is not only painfully slow but highly susceptible to human error and fraud. Credit analysts spend 80% of their time on data entry and only 20% on actual risk assessment.
             </p>
             <p>
-              <strong className="text-brand font-semibold">Asenra built ACAS to flip that ratio.</strong>
+              <strong className="text-brand font-semibold">Asenra built Cresem to flip that ratio.</strong>
             </p>
             <p>
-              By leveraging deterministic AI and advanced computer vision, ACAS automates the extraction, verification, and cross-referencing of complex financial documents. We turn hours of manual grunt work into two minutes of automated intelligence.
+              By leveraging deterministic AI and advanced computer vision, Cresem automates the extraction, verification, and cross-referencing of complex financial documents. We turn hours of manual grunt work into two minutes of automated intelligence.
             </p>
           </div>
         </div>

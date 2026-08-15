@@ -44,8 +44,8 @@ export async function POST(req: Request) {
           
           <!-- Header -->
           <div style="background-color: #111111; padding: 40px 32px; text-align: center;">
-            <img src="https://raw.githubusercontent.com/Asenra-Org/Credent-landingpage/main/public/logo.jpg" alt="ACAS" style="width: 48px; height: 48px; margin-bottom: 16px; border-radius: 4px;" />
-            <h1 style="margin: 0; font-size: 20px; font-weight: 800; letter-spacing: 0.2em; color: #ffffff; text-transform: uppercase;">ACAS</h1>
+            <img src="https://raw.githubusercontent.com/Asenra-Org/Credent-landingpage/main/public/logo.jpg" alt="Cresem" style="width: 48px; height: 48px; margin-bottom: 16px; border-radius: 4px;" />
+            <h1 style="margin: 0; font-size: 20px; font-weight: 800; letter-spacing: 0.2em; color: #ffffff; text-transform: uppercase;">Cresem</h1>
           </div>
           
           <!-- Content -->
@@ -86,7 +86,7 @@ export async function POST(req: Request) {
           <!-- Footer -->
           <div style="background-color: #fafafa; padding: 24px 32px; border-top: 1px solid #e4e4e7; text-align: center;">
             <p style="margin: 0; font-size: 12px; color: #a1a1aa;">
-              This is an automated system notification from the ACAS Platform.<br/>
+              This is an automated system notification from the Cresem Platform.<br/>
               Confidential & Internal Use Only.
             </p>
           </div>
@@ -99,7 +99,7 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: process.env.SMTP_USER,
       to: process.env.CONTACT_EMAIL || process.env.NOTIFICATION_EMAIL || process.env.SMTP_USER,
-      subject: `New ACAS Lead: ${name} from ${company || 'Unknown Company'}`,
+      subject: `New Cresem Lead: ${name} from ${company || 'Unknown Company'}`,
       html: emailHtml,
     };
 

@@ -10,12 +10,12 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <Image 
             src="/logo.jpg" 
-            alt="ACAS Logo" 
+            alt="Cresem Logo" 
             width={32} 
             height={32} 
             className="w-8 h-8 object-contain grayscale invert brightness-200 mix-blend-screen"
           />
-          <span className="font-bold">ACAS</span>
+          <span className="font-bold">Cresem</span>
           <span className="text-white/40 ml-4 hidden sm:block">Intelligent Credit Decision Platform</span>
         </div>
 
