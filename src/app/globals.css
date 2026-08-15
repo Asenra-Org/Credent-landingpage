@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-background: #FCFCFB;
+  --color-brand: #111418;
+  --color-secondary: #475467;
+  --color-primary: #0A2540;
+  --color-border: #E5E7EB;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-brand);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Editorial horizontal rules */
+.editorial-hr {
+  border-top: 1px solid var(--color-border);
+  width: 100%;
+}
+
+/* Base resets for GSAP */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom selection */
+::selection {
+  background: var(--color-brand);
+  color: white;
 }
