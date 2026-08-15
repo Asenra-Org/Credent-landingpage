@@ -54,7 +54,7 @@ export function Hero() {
           </h1>
           
           <p className="hero-text text-base lg:text-lg text-secondary leading-relaxed mb-8 max-w-md">
-            Cresm brings document ingestion, financial analysis, verification, evidence and credit review into one structured workflow for modern lenders.
+            Credent brings document ingestion, financial analysis, verification, evidence and credit review into one structured workflow for modern lenders.
           </p>
           
           <div className="hero-text flex flex-col sm:flex-row items-start sm:items-center gap-6">
@@ -94,13 +94,13 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Core UI Panel: Cresm Credit Case */}
+          {/* Core UI Panel: Credent Credit Case */}
           <div className="ui-panel absolute top-[30%] left-[5%] right-[5%] sm:left-[15%] sm:right-[15%] bg-white border border-border shadow-2xl rounded-sm overflow-hidden z-20">
             {/* Header */}
             <div className="bg-brand text-white px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <Image src="/logo.jpg" alt="Cresm" width={16} height={16} className="w-4 h-4 object-contain grayscale invert brightness-200 mix-blend-screen" />
-                <span className="text-xs font-bold tracking-widest uppercase">Cresm Credit Case</span>
+                <Image src="/logo.jpg" alt="Credent" width={16} height={16} className="w-4 h-4 object-contain grayscale invert brightness-200 mix-blend-screen" />
+                <span className="text-xs font-bold tracking-widest uppercase">Credent Credit Case</span>
               </div>
               <span className="font-mono text-[10px] text-white/50">ID: CR-8924</span>
             </div>

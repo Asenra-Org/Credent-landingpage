@@ -22,7 +22,7 @@ export function DashboardMockup() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-sm bg-primary" />
-                <span className="font-bold tracking-tight text-brand">CRESM</span>
+                <span className="font-bold tracking-tight text-brand">CREDENT</span>
               </div>
               <div className="h-4 w-[1px] bg-border" />
               <div className="flex items-center gap-2 text-sm text-secondary font-medium">

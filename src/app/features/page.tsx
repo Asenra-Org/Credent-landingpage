@@ -18,7 +18,7 @@ export default function FeaturesPage() {
             <span className="font-extrabold">at machine speed.</span>
           </h1>
           <p className="text-lg text-secondary leading-relaxed max-w-2xl mx-auto">
-            A deep dive into how Cresm processes, verifies, and analyzes financial documents to give credit teams superhuman analytical abilities.
+            A deep dive into how Credent processes, verifies, and analyzes financial documents to give credit teams superhuman analytical abilities.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function FeaturesPage() {
               Document <span className="font-extrabold">Forensics.</span>
             </h2>
             <p className="text-lg text-secondary leading-relaxed mb-6">
-              Fraudulent financial documents are becoming increasingly sophisticated. Cresm's AI goes beyond OCR, analyzing file metadata, font subsetting anomalies, and hidden layer manipulations to detect tampered bank statements and tax returns instantly.
+              Fraudulent financial documents are becoming increasingly sophisticated. Credent's AI goes beyond OCR, analyzing file metadata, font subsetting anomalies, and hidden layer manipulations to detect tampered bank statements and tax returns instantly.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">

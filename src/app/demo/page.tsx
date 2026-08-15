@@ -26,7 +26,7 @@ export default function DemoPage() {
     setTerminalLines([]);
 
     const lines = [
-      "Initializing Cresm Engine v2.1...",
+      "Initializing Credent Engine v2.1...",
       `Creating secure sandbox for entity: ${formData.company}...`,
       "Configuring AI models for scale...",
       `Validating contact node: ${formData.email}...`,
@@ -76,12 +76,12 @@ export default function DemoPage() {
         <Link href="/" className="inline-flex items-center gap-3">
           <Image 
             src="/logo.jpg" 
-            alt="Cresm Logo" 
+            alt="Credent Logo" 
             width={24} 
             height={24} 
             className="w-6 h-6 object-contain mix-blend-screen grayscale invert brightness-200"
           />
-          <span className="font-bold text-brand uppercase tracking-widest text-sm">CRESM</span>
+          <span className="font-bold text-brand uppercase tracking-widest text-sm">CREDENT</span>
         </Link>
         <div className="text-xs font-mono text-secondary hidden md:flex items-center gap-2">
           <ShieldCheck className="w-4 h-4 text-emerald-500" />
@@ -112,7 +112,7 @@ export default function DemoPage() {
                 { 
                   id: "identity", 
                   title: "Identity Verification", 
-                  desc: "Validating user cresmials.",
+                  desc: "Validating user credentials.",
                   done: formData.name.length > 2 && formData.email.includes('@')
                 },
                 { 
@@ -275,7 +275,7 @@ export default function DemoPage() {
                   
                   <div className="flex items-center gap-2 mb-4 text-[#1a3a5c] border-b border-[#1a3a5c] pb-2">
                     <Terminal className="w-4 h-4" />
-                    <span className="text-[10px] uppercase tracking-widest font-bold">Cresm Secure Terminal</span>
+                    <span className="text-[10px] uppercase tracking-widest font-bold">Credent Secure Terminal</span>
                   </div>
 
                   <div className="flex-1 space-y-1.5 overflow-y-auto overflow-x-hidden break-words whitespace-pre-wrap pr-2">
@@ -314,7 +314,7 @@ export default function DemoPage() {
                   </div>
                   <h3 className="font-bold text-brand text-2xl mb-3">Booking Confirmed</h3>
                   <p className="text-sm text-secondary leading-relaxed mb-8 px-4">
-                    Your request has been securely transmitted. A product expert from Cresm will reach out to <strong>{formData.email}</strong> shortly to schedule your personalized walkthrough.
+                    Your request has been securely transmitted. A product expert from Credent will reach out to <strong>{formData.email}</strong> shortly to schedule your personalized walkthrough.
                   </p>
                   
                   <button 

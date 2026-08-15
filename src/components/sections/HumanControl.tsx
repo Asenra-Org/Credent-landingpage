@@ -11,7 +11,7 @@ if (typeof window !== "undefined") {
 }
 
 const FLOW = [
-  "Cresm Assessment",
+  "Credent Assessment",
   "Credit Review",
   "Credit Officer",
   "Approve / Reject / Send Back",
@@ -48,7 +48,7 @@ export function HumanControl() {
           <span className="font-extrabold">The institution makes the decision.</span>
         </h2>
         <p className="text-lg text-secondary leading-relaxed max-w-2xl mb-24">
-          Cresm is not an autonomous lending system. It structures the data and verifies the math, handing a clean, auditable file to your authorized personnel for final sign-off.
+          Credent is not an autonomous lending system. It structures the data and verifies the math, handing a clean, auditable file to your authorized personnel for final sign-off.
         </p>
 
         <div className="flex flex-col items-center w-full max-w-sm font-mono text-sm font-bold tracking-widest uppercase">

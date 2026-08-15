@@ -19,13 +19,13 @@ export function DeploymentAndCTA() {
               <span className="font-extrabold">institutional environments.</span>
             </h2>
             <p className="text-lg text-secondary leading-relaxed max-w-md">
-              Cresm is designed to support controlled enterprise deployment models, ensuring your data never leaves a trusted boundary.
+              Credent is designed to support controlled enterprise deployment models, ensuring your data never leaves a trusted boundary.
             </p>
           </div>
           
           <div className="flex-1 flex flex-col gap-12 font-mono text-sm">
             <div className="border-t-2 border-brand pt-6">
-              <h3 className="font-bold tracking-widest text-brand uppercase mb-4">Cresm-Managed</h3>
+              <h3 className="font-bold tracking-widest text-brand uppercase mb-4">Credent-Managed</h3>
               <p className="text-secondary mb-2 text-xs uppercase tracking-wide">Private Environment</p>
               <p className="text-secondary leading-relaxed">Dedicated, single-tenant infrastructure managed by our team within a secure VPC.</p>
             </div>
@@ -45,7 +45,7 @@ export function DeploymentAndCTA() {
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           
           <div className="mb-12">
-            <Image src="/logo.jpg" alt="Cresm Logo" width={48} height={48} className="w-12 h-12 object-contain" />
+            <Image src="/logo.jpg" alt="Credent Logo" width={48} height={48} className="w-12 h-12 object-contain" />
           </div>
 
           <h2 className="text-4xl sm:text-6xl md:text-[5rem] font-light leading-[1.05] tracking-tight text-brand mb-8">
@@ -54,7 +54,7 @@ export function DeploymentAndCTA() {
           </h2>
           
           <p className="text-xl text-secondary max-w-2xl mx-auto mb-16 leading-relaxed">
-            Cresm is being built to turn fragmented borrower information into structured, reviewable credit intelligence.
+            Credent is being built to turn fragmented borrower information into structured, reviewable credit intelligence.
           </p>
           
           <Link href="/demo" className="bg-brand text-white px-8 py-4 text-base font-semibold hover:bg-brand/90 transition-colors flex items-center gap-2 group">
