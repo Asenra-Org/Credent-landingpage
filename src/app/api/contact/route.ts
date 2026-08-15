@@ -29,18 +29,19 @@ export async function POST(req: Request) {
     // Configure nodemailer transporter
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT || '587'),
-      secure: process.env.SMTP_SECURE === 'true', // true for 465, false for other ports
+      port: parseInt(process.env.SMTP_PORT || '465'),
+      secure: parseInt(process.env.SMTP_PORT || '465') === 465, // true for 465, false for other ports
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
       },
+      tls: { rejectUnauthorized: false } // Helps prevent certificate issues with Zoho
     });
 
     // Email content
     const mailOptions = {
-      from: process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER,
-      to: process.env.NOTIFICATION_EMAIL || process.env.SMTP_USER, // Where to send the lead
+      from: process.env.SMTP_USER,
+      to: process.env.CONTACT_EMAIL || process.env.NOTIFICATION_EMAIL || process.env.SMTP_USER,
       subject: `New Credent Lead: ${name} from ${company || 'Unknown Company'}`,
       html: `
         <h2>New Lead from Credent Demo Form</h2>
