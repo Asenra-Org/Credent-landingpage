@@ -21,8 +21,9 @@ export function Footer() {
 
         <div className="flex items-center gap-8 text-white/50">
           <Link href="/features" className="hover:text-white transition-colors">Platform</Link>
+          <Link href="/workflow" className="hover:text-white transition-colors">How It Works</Link>
           <Link href="/security" className="hover:text-white transition-colors">Security</Link>
-          <Link href="/api" className="hover:text-white transition-colors">API</Link>
+          <Link href="/deployment" className="hover:text-white transition-colors">Deployment</Link>
           <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
         </div>
 

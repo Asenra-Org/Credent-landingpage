@@ -62,7 +62,7 @@ export function Hero() {
               Request Early Access
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link href="#platform" className="text-base font-semibold text-brand hover:text-primary transition-colors underline underline-offset-4 decoration-border hover:decoration-primary">
+            <Link href="/features" className="text-base font-semibold text-brand hover:text-primary transition-colors underline underline-offset-4 decoration-border hover:decoration-primary">
               Explore the Platform
             </Link>
           </div>
