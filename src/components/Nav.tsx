@@ -27,7 +27,7 @@ export function Nav() {
           <Link href="#workflow" className="hover:text-brand transition-colors">How It Works</Link>
           <Link href="#security" className="hover:text-brand transition-colors">Security</Link>
           <Link href="#deployment" className="hover:text-brand transition-colors">Deployment</Link>
-          <Link href="#about" className="hover:text-brand transition-colors">About</Link>
+          <Link href="/about" className="hover:text-brand transition-colors">About</Link>
         </nav>
 
         {/* CTA */}
