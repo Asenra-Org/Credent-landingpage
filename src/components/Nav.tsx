@@ -23,16 +23,17 @@ export function Nav() {
 
         {/* Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-secondary">
-          <Link href="/features" className="hover:text-brand transition-colors">Features</Link>
-          <Link href="/security" className="hover:text-brand transition-colors">Security</Link>
-          <Link href="/api" className="hover:text-brand transition-colors">API</Link>
-          <Link href="/about" className="hover:text-brand transition-colors">About Us</Link>
+          <Link href="#platform" className="hover:text-brand transition-colors">Platform</Link>
+          <Link href="#workflow" className="hover:text-brand transition-colors">How It Works</Link>
+          <Link href="#security" className="hover:text-brand transition-colors">Security</Link>
+          <Link href="#deployment" className="hover:text-brand transition-colors">Deployment</Link>
+          <Link href="#about" className="hover:text-brand transition-colors">About</Link>
         </nav>
 
         {/* CTA */}
         <div className="flex items-center">
           <Link href="/demo" className="flex items-center gap-2 text-sm font-semibold text-brand hover:text-primary transition-colors group">
-            Book a Demo
+            Request Early Access
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
