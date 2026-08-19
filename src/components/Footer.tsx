@@ -15,7 +15,7 @@ export function Footer() {
             height={32} 
             className="w-8 h-8 object-contain grayscale invert brightness-200 mix-blend-screen"
           />
-          <span className="font-bold">Cresem</span>
+          <span className="font-bold">CRESEM</span>
           <span className="text-white/40 ml-4 hidden sm:block">Enterprise Credit Decision Platform</span>
         </div>
 

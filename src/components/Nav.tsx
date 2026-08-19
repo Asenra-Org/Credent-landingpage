@@ -18,7 +18,7 @@ export function Nav() {
             className="w-8 h-8 object-contain"
             priority
           />
-          <span className="font-bold tracking-tight text-brand text-lg">Cresem</span>
+          <span className="font-bold uppercase tracking-widest text-brand text-sm sm:text-base">CRESEM</span>
         </Link>
 
         {/* Links */}
