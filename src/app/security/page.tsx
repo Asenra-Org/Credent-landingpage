@@ -99,7 +99,7 @@ export default function SecurityPage() {
               <Shield className="w-8 h-8" />
               <div className="text-left">
                 <div className="font-bold text-lg">SOC 2 Type II</div>
-                <div className="text-[10px] uppercase tracking-wider text-white/50">Compliant</div>
+                <div className="text-[10px] uppercase tracking-wider text-white/50">Ready Architecture</div>
               </div>
             </div>
             <div className="flex items-center gap-3">
