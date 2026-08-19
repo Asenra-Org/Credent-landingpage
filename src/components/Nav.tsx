@@ -9,16 +9,16 @@ export function Nav() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link href="/" className="flex items-center gap-2 group">
           <Image 
             src="/logo.jpg" 
             alt="Cresem Logo" 
-            width={24} 
-            height={24} 
-            className="w-6 h-6 object-contain mix-blend-screen grayscale invert brightness-200"
+            width={32} 
+            height={32} 
+            className="w-8 h-8 object-contain"
             priority
           />
-          <span className="font-bold text-brand uppercase tracking-widest text-sm">Cresem</span>
+          <span className="font-bold tracking-tight text-brand text-lg">Cresem</span>
         </Link>
 
         {/* Links */}
