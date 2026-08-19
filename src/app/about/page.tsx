@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { MoveRight } from "lucide-react";
@@ -60,15 +61,20 @@ export default function AboutPage() {
             <h2 className="text-sm font-bold tracking-[0.2em] text-secondary uppercase">Leadership</h2>
           </div>
           <div className="md:col-span-2">
-            <div className="border border-border p-8 bg-background relative group">
-              <h3 className="text-2xl font-bold mb-1 text-brand">Karan Patil</h3>
-              <div className="text-primary font-mono text-xs uppercase tracking-widest mb-6">Founder & CEO</div>
-              <p className="text-secondary leading-relaxed mb-6">
-                Bridging the gap between deep technical infrastructure and institutional finance. With a background rooted in building scalable software systems and understanding complex credit workflows, Karan leads Asenra's vision to modernize the lending stack.
-              </p>
-              <a href="https://www.linkedin.com/in/karan-patill/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand hover:text-primary transition-colors">
-                Connect on LinkedIn <MoveRight className="w-4 h-4" />
-              </a>
+            <div className="border border-border p-8 bg-background relative group flex flex-col sm:flex-row gap-8 items-start">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 shrink-0 relative overflow-hidden bg-gray-100 rounded-sm border border-border/50">
+                <Image src="/karanpatil.png" alt="Karan Patil" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-1 text-brand">Karan Patil</h3>
+                <div className="text-primary font-mono text-xs uppercase tracking-widest mb-6">Founder & CEO</div>
+                <p className="text-secondary leading-relaxed mb-6">
+                  Bridging the gap between deep technical infrastructure and institutional finance. With a background rooted in building scalable software systems and understanding complex credit workflows, Karan leads Asenra's vision to modernize the lending stack.
+                </p>
+                <a href="https://www.linkedin.com/in/karan-patill/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand hover:text-primary transition-colors">
+                  Connect on LinkedIn <MoveRight className="w-4 h-4" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
