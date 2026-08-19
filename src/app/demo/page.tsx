@@ -1,6 +1,6 @@
 "use client";
-
 import React, { useState } from "react";
+import { Nav } from "@/components/Nav";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ArrowRight, Terminal, FileText, Loader2, ShieldCheck, Building2, User, Mail, BarChart3 } from "lucide-react";
@@ -71,23 +71,7 @@ export default function DemoPage() {
   return (
     <main className="w-full flex flex-col min-h-screen bg-background text-foreground">
       
-      {/* Minimal Header */}
-      <header className="w-full bg-white border-b border-border py-4 px-6 flex justify-between items-center z-10 relative">
-        <Link href="/" className="inline-flex items-center gap-3">
-          <Image 
-            src="/logo.jpg" 
-            alt="Cresem Logo" 
-            width={24} 
-            height={24} 
-            className="w-6 h-6 object-contain mix-blend-screen grayscale invert brightness-200"
-          />
-          <span className="font-bold text-brand uppercase tracking-widest text-sm">Cresem</span>
-        </Link>
-        <div className="text-xs font-mono text-secondary hidden md:flex items-center gap-2">
-          <ShieldCheck className="w-4 h-4 text-emerald-500" />
-          System: Online • Status: Secure
-        </div>
-      </header>
+      <Nav />
 
       {/* Main Content */}
       <section className="flex-1 w-full flex flex-col lg:flex-row overflow-hidden relative">
