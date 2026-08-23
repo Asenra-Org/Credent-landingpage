@@ -32,13 +32,13 @@ export function Nav() {
 
         {/* CTA */}
         <div className="flex items-center gap-4 sm:gap-6">
-          <a href="https://app.cresem.asenra.in" className="hidden sm:block text-sm font-medium text-secondary hover:text-brand transition-colors">
-            Institution Login
-          </a>
-          <Link href="/demo" className="flex items-center gap-2 text-sm font-semibold text-brand hover:text-primary transition-colors group">
+          <Link href="/demo" className="hidden md:flex items-center gap-2 text-sm font-semibold text-brand hover:text-primary transition-colors group">
             Request Early Access
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
+          <a href="https://app.cresem.asenra.in" className="hidden sm:inline-flex items-center justify-center bg-brand text-white text-sm font-medium px-5 py-2 rounded-sm hover:bg-brand/90 transition-colors">
+            Institution Login
+          </a>
         </div>
 
       </div>
