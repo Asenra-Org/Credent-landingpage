@@ -2,7 +2,7 @@ import React from 'react';
 
 export function ROICaseStudy() {
   return (
-    <section className="w-full bg-white border-y border-border py-24">
+    <section id="roi-case-study" className="w-full bg-white border-y border-border py-24 scroll-mt-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         
         {/* Header */}
