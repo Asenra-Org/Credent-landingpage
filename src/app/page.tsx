@@ -1,3 +1,4 @@
+import { ROICaseStudy } from "@/components/sections/ROICaseStudy";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/sections/Hero";
@@ -20,6 +21,7 @@ export default function Home() {
       <Problem />
       <Transformation />
       <Workflow />
+      <ROICaseStudy />
       <Evidence />
       <HumanControl />
       <Security />
